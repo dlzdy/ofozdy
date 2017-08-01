@@ -8,26 +8,23 @@
 
 import UIKit
 
-class MenuTableViewController: UITableViewController {
+class MenuController: UITableViewController {
     //头像
     @IBOutlet weak var avatar: UIImageView!
     //认证图片
-    @IBOutlet weak var certImage: UIImageView!
+    @IBOutlet weak var certImageView: UIImageView!
     //认证状态
-    @IBOutlet weak var certLable: UILabel!
+    @IBOutlet weak var certLabel: UILabel!
     //积分
-    @IBOutlet weak var jifen: UILabel!
+    @IBOutlet weak var creditLabel: UILabel!
     //余额
-    @IBOutlet weak var balance: UILabel!
+    @IBOutlet weak var balanceLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
+//        balanceLabel.
+        
     }
 
     override func didReceiveMemoryWarning() {

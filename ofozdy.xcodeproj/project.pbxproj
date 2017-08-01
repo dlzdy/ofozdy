@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F2EC6001F30C4EE006DF92F /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2EC5FF1F30C4EE006DF92F /* MenuController.swift */; };
 		1FB4606E1F2F6C4400D8A166 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB4606D1F2F6C4400D8A166 /* AppDelegate.swift */; };
 		1FB460701F2F6C4400D8A166 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB4606F1F2F6C4400D8A166 /* ViewController.swift */; };
 		1FB460731F2F6C4400D8A166 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FB460711F2F6C4400D8A166 /* Main.storyboard */; };
@@ -14,10 +15,12 @@
 		1FB460781F2F6C4400D8A166 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FB460761F2F6C4400D8A166 /* LaunchScreen.storyboard */; };
 		1FEBD9331F30658C00C8A979 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FEBD9321F30658C00C8A979 /* MapKit.framework */; };
 		1FEBD9351F3066FB00C8A979 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEBD9341F3066FB00C8A979 /* WebViewController.swift */; };
-		1FEBD9371F308F8B00C8A979 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEBD9361F308F8B00C8A979 /* MenuTableViewController.swift */; };
+		203AE1DA68827062CFF909A9 /* Pods_ofozdy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E198322B2CAEE812EBBFECB1 /* Pods_ofozdy.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F2EC5FF1F30C4EE006DF92F /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		1F2EC6031F30CA4B006DF92F /* ofozdy-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ofozdy-Bridging-Header.h"; sourceTree = "<group>"; };
 		1FB4606A1F2F6C4400D8A166 /* ofozdy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ofozdy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FB4606D1F2F6C4400D8A166 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FB4606F1F2F6C4400D8A166 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -27,7 +30,9 @@
 		1FB460791F2F6C4400D8A166 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FEBD9321F30658C00C8A979 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		1FEBD9341F3066FB00C8A979 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
-		1FEBD9361F308F8B00C8A979 /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		C10648D5D59CBDDB589F93F3 /* Pods-ofozdy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ofozdy.release.xcconfig"; path = "Pods/Target Support Files/Pods-ofozdy/Pods-ofozdy.release.xcconfig"; sourceTree = "<group>"; };
+		E198322B2CAEE812EBBFECB1 /* Pods_ofozdy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ofozdy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8E7337AAEC4F93D9F265519 /* Pods-ofozdy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ofozdy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ofozdy/Pods-ofozdy.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,18 +41,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FEBD9331F30658C00C8A979 /* MapKit.framework in Frameworks */,
+				203AE1DA68827062CFF909A9 /* Pods_ofozdy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1DDED17471692E7071FC2A07 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8E7337AAEC4F93D9F265519 /* Pods-ofozdy.debug.xcconfig */,
+				C10648D5D59CBDDB589F93F3 /* Pods-ofozdy.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		1FB460611F2F6C4400D8A166 = {
 			isa = PBXGroup;
 			children = (
 				1FB4606C1F2F6C4400D8A166 /* ofozdy */,
 				1FB4606B1F2F6C4400D8A166 /* Products */,
 				1FEBD9311F30658C00C8A979 /* Frameworks */,
+				1DDED17471692E7071FC2A07 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,11 +81,12 @@
 				1FB4606D1F2F6C4400D8A166 /* AppDelegate.swift */,
 				1FB4606F1F2F6C4400D8A166 /* ViewController.swift */,
 				1FEBD9341F3066FB00C8A979 /* WebViewController.swift */,
+				1F2EC5FF1F30C4EE006DF92F /* MenuController.swift */,
 				1FB460711F2F6C4400D8A166 /* Main.storyboard */,
-				1FEBD9361F308F8B00C8A979 /* MenuTableViewController.swift */,
 				1FB460741F2F6C4400D8A166 /* Assets.xcassets */,
 				1FB460761F2F6C4400D8A166 /* LaunchScreen.storyboard */,
 				1FB460791F2F6C4400D8A166 /* Info.plist */,
+				1F2EC6031F30CA4B006DF92F /* ofozdy-Bridging-Header.h */,
 			);
 			path = ofozdy;
 			sourceTree = "<group>";
@@ -78,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				1FEBD9321F30658C00C8A979 /* MapKit.framework */,
+				E198322B2CAEE812EBBFECB1 /* Pods_ofozdy.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -89,9 +107,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1FB4607C1F2F6C4400D8A166 /* Build configuration list for PBXNativeTarget "ofozdy" */;
 			buildPhases = (
+				F05CB2BBDBA1B10DFD29EBF5 /* [CP] Check Pods Manifest.lock */,
 				1FB460661F2F6C4400D8A166 /* Sources */,
 				1FB460671F2F6C4400D8A166 /* Frameworks */,
 				1FB460681F2F6C4400D8A166 /* Resources */,
+				C304EB2BF2D79BA487CECD6E /* [CP] Embed Pods Frameworks */,
+				AE2558F9FB8970DC879D6006 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -114,6 +135,7 @@
 				TargetAttributes = {
 					1FB460691F2F6C4400D8A166 = {
 						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Maps.iOS = {
@@ -154,12 +176,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AE2558F9FB8970DC879D6006 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ofozdy/Pods-ofozdy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C304EB2BF2D79BA487CECD6E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ofozdy/Pods-ofozdy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F05CB2BBDBA1B10DFD29EBF5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1FB460661F2F6C4400D8A166 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FEBD9371F308F8B00C8A979 /* MenuTableViewController.swift in Sources */,
+				1F2EC6001F30C4EE006DF92F /* MenuController.swift in Sources */,
 				1FB460701F2F6C4400D8A166 /* ViewController.swift in Sources */,
 				1FEBD9351F3066FB00C8A979 /* WebViewController.swift in Sources */,
 				1FB4606E1F2F6C4400D8A166 /* AppDelegate.swift in Sources */,
@@ -285,14 +355,18 @@
 		};
 		1FB4607D1F2F6C4400D8A166 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8E7337AAEC4F93D9F265519 /* Pods-ofozdy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ofozdy/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jeenms.ios.ofozdy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ofozdy/ofozdy-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -300,14 +374,17 @@
 		};
 		1FB4607E1F2F6C4400D8A166 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C10648D5D59CBDDB589F93F3 /* Pods-ofozdy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ofozdy/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jeenms.ios.ofozdy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ofozdy/ofozdy-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

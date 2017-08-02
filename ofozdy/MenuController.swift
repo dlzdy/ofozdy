@@ -23,7 +23,7 @@ class MenuController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-//        balanceLabel.
+        balanceLabel.text = "201.00元"
         
     }
 

@@ -7,4 +7,9 @@ target 'ofozdy' do
 
   # Pods for ofozdy
   pod 'SWRevealViewController'
+  pod 'AMap3DMap'
+  pod 'AMapLocation'
+  pod 'AMapSearch'
+  pod 'AMapNavi'
+  pod 'FTIndicator'
 end

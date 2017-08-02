@@ -21,49 +21,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="jUM-wE-xVx">
-                                <rect key="frame" x="0.0" y="64" width="343" height="603"/>
-                                <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="wt7-8a-aj6">
-                                        <rect key="frame" x="0.0" y="0.0" width="343" height="603"/>
-                                        <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="8cu-lE-sbn">
-                                                <rect key="frame" x="0.0" y="0.0" width="343" height="603"/>
-                                                <subviews>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ayQ-E5-Gsp">
-                                                        <rect key="frame" x="0.0" y="0.0" width="343" height="603"/>
-                                                        <subviews>
-                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="kmU-pd-OqU">
-                                                                <rect key="frame" x="0.0" y="0.0" width="343" height="603"/>
-                                                                <subviews>
-                                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="If7-VS-enc">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="343" height="603"/>
-                                                                        <subviews>
-                                                                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="QFX-NQ-0g9">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="343" height="603"/>
-                                                                            </mapView>
-                                                                        </subviews>
-                                                                    </stackView>
-                                                                </subviews>
-                                                            </stackView>
-                                                        </subviews>
-                                                    </stackView>
-                                                </subviews>
-                                                <constraints>
-                                                    <constraint firstItem="ayQ-E5-Gsp" firstAttribute="leading" secondItem="8cu-lE-sbn" secondAttribute="leading" id="MEI-TA-JvE"/>
-                                                </constraints>
-                                            </stackView>
-                                        </subviews>
-                                    </stackView>
-                                </subviews>
-                            </stackView>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="QFX-NQ-0g9">
+                                <rect key="frame" x="0.0" y="32" width="375" height="635"/>
+                            </mapView>
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4y1-ZT-ecQ">
+                                <rect key="frame" x="0.0" y="575" width="375" height="92"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="jUM-wE-xVx" secondAttribute="bottom" id="PlE-Mx-MS5"/>
-                            <constraint firstItem="jUM-wE-xVx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="R18-gF-ynG"/>
-                            <constraint firstItem="jUM-wE-xVx" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="rzT-cs-7Kz"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="jUM-wE-xVx" secondAttribute="trailing" id="yaG-La-EwZ"/>
+                            <constraint firstItem="QFX-NQ-0g9" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="3lx-6I-wGk"/>
+                            <constraint firstItem="QFX-NQ-0g9" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="5hS-Uv-vSB"/>
+                            <constraint firstAttribute="trailing" secondItem="QFX-NQ-0g9" secondAttribute="trailing" id="MX6-JB-Q5z"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="4y1-ZT-ecQ" secondAttribute="bottom" id="frL-sj-0OE"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="QFX-NQ-0g9" secondAttribute="bottom" id="jyD-Jz-7oM"/>
+                            <constraint firstAttribute="trailing" secondItem="4y1-ZT-ecQ" secondAttribute="trailing" id="oN8-a7-L0X"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="M0c-Ug-ucG">
@@ -363,7 +336,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y7t-BY-hfm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="629.60000000000002" y="858.62068965517244"/>
+            <point key="canvasLocation" x="-260" y="881"/>
         </scene>
         <!--Web View Controller-->
         <scene sceneID="HQ2-kQ-NpG">
@@ -403,7 +376,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iSS-by-LP1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1214" y="850"/>
+            <point key="canvasLocation" x="-1839" y="442"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="EYt-dg-lHs">
@@ -441,7 +414,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J6F-60-CSW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1404" y="1010"/>
+            <point key="canvasLocation" x="474" y="1052"/>
         </scene>
     </scenes>
     <resources>
